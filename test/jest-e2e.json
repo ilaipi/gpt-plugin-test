@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@gpt/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "@gpt/config": "<rootDir>/../libs/config/src",
+    "@gpt/common/(.*)": "<rootDir>/../libs/common/src/$1",
+    "@gpt/common": "<rootDir>/../libs/common/src",
+    "@gpt/providers/(.*)": "<rootDir>/../libs/providers/src/$1",
+    "@gpt/providers": "<rootDir>/../libs/providers/src"
+  }
+}
